@@ -59,9 +59,10 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(500, 200);
+            this.linkLabel1.Location = new System.Drawing.Point(1000, 385);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(0, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(0, 25);
             this.linkLabel1.TabIndex = 3;
             // 
             // lblId
@@ -70,9 +71,10 @@
             this.lblId.BackColor = System.Drawing.Color.White;
             this.lblId.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblId.ForeColor = System.Drawing.Color.Black;
-            this.lblId.Location = new System.Drawing.Point(230, 295);
+            this.lblId.Location = new System.Drawing.Point(460, 567);
+            this.lblId.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(23, 19);
+            this.lblId.Size = new System.Drawing.Size(47, 39);
             this.lblId.TabIndex = 4;
             this.lblId.Text = "ID";
             this.lblId.Click += new System.EventHandler(this.label1_Click_1);
@@ -82,10 +84,11 @@
             this.txtId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtId.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(234, 330);
+            this.txtId.Location = new System.Drawing.Point(468, 635);
+            this.txtId.Margin = new System.Windows.Forms.Padding(6);
             this.txtId.Multiline = true;
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(168, 20);
+            this.txtId.Size = new System.Drawing.Size(336, 38);
             this.txtId.TabIndex = 5;
             this.txtId.TextChanged += new System.EventHandler(this.TxtId_TextChanged);
             this.txtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtId_KeyPress);
@@ -95,10 +98,11 @@
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(441, 330);
+            this.txtNombre.Location = new System.Drawing.Point(882, 635);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(6);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(249, 20);
+            this.txtNombre.Size = new System.Drawing.Size(498, 38);
             this.txtNombre.TabIndex = 6;
             this.txtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNombre_KeyPress);
@@ -108,10 +112,11 @@
             this.txtApellidop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtApellidop.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtApellidop.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidop.Location = new System.Drawing.Point(233, 408);
+            this.txtApellidop.Location = new System.Drawing.Point(466, 785);
+            this.txtApellidop.Margin = new System.Windows.Forms.Padding(6);
             this.txtApellidop.Multiline = true;
             this.txtApellidop.Name = "txtApellidop";
-            this.txtApellidop.Size = new System.Drawing.Size(209, 20);
+            this.txtApellidop.Size = new System.Drawing.Size(418, 38);
             this.txtApellidop.TabIndex = 7;
             this.txtApellidop.TextChanged += new System.EventHandler(this.TxtApellidop_TextChanged);
             this.txtApellidop.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtApellidop_KeyPress);
@@ -121,10 +126,11 @@
             this.txtApellidom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtApellidom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtApellidom.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidom.Location = new System.Drawing.Point(482, 408);
+            this.txtApellidom.Location = new System.Drawing.Point(964, 785);
+            this.txtApellidom.Margin = new System.Windows.Forms.Padding(6);
             this.txtApellidom.Multiline = true;
             this.txtApellidom.Name = "txtApellidom";
-            this.txtApellidom.Size = new System.Drawing.Size(173, 20);
+            this.txtApellidom.Size = new System.Drawing.Size(346, 38);
             this.txtApellidom.TabIndex = 8;
             this.txtApellidom.TextChanged += new System.EventHandler(this.txtApellidom_TextChanged);
             this.txtApellidom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidom_KeyPress);
@@ -134,10 +140,11 @@
             this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDireccion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.Location = new System.Drawing.Point(231, 483);
+            this.txtDireccion.Location = new System.Drawing.Point(462, 929);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(6);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(211, 20);
+            this.txtDireccion.Size = new System.Drawing.Size(422, 38);
             this.txtDireccion.TabIndex = 9;
             this.txtDireccion.TextChanged += new System.EventHandler(this.TxtDireccion_TextChanged);
             // 
@@ -146,10 +153,11 @@
             this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreo.Location = new System.Drawing.Point(233, 563);
+            this.txtCorreo.Location = new System.Drawing.Point(466, 1083);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(6);
             this.txtCorreo.Multiline = true;
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(209, 20);
+            this.txtCorreo.Size = new System.Drawing.Size(418, 38);
             this.txtCorreo.TabIndex = 10;
             this.txtCorreo.TextChanged += new System.EventHandler(this.TxtCorreo_TextChanged);
             this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCorreo_KeyPress);
@@ -159,10 +167,11 @@
             this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTelefono.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.Location = new System.Drawing.Point(231, 642);
+            this.txtTelefono.Location = new System.Drawing.Point(462, 1235);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(6);
             this.txtTelefono.Multiline = true;
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(211, 20);
+            this.txtTelefono.Size = new System.Drawing.Size(422, 38);
             this.txtTelefono.TabIndex = 11;
             this.txtTelefono.TextChanged += new System.EventHandler(this.TxtTelefono_TextChanged);
             this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTelefono_KeyPress);
@@ -171,9 +180,10 @@
             // 
             this.pictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
-            this.pictureBox.Location = new System.Drawing.Point(536, 494);
+            this.pictureBox.Location = new System.Drawing.Point(1072, 950);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(130, 135);
+            this.pictureBox.Size = new System.Drawing.Size(260, 260);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 14;
             this.pictureBox.TabStop = false;
@@ -186,9 +196,10 @@
             this.lblNombre.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblNombre.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.Black;
-            this.lblNombre.Location = new System.Drawing.Point(447, 295);
+            this.lblNombre.Location = new System.Drawing.Point(894, 567);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(65, 19);
+            this.lblNombre.Size = new System.Drawing.Size(128, 39);
             this.lblNombre.TabIndex = 15;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.Click += new System.EventHandler(this.label2_Click);
@@ -200,9 +211,10 @@
             this.lblApellidom.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblApellidom.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellidom.ForeColor = System.Drawing.Color.Black;
-            this.lblApellidom.Location = new System.Drawing.Point(478, 372);
+            this.lblApellidom.Location = new System.Drawing.Point(956, 715);
+            this.lblApellidom.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblApellidom.Name = "lblApellidom";
-            this.lblApellidom.Size = new System.Drawing.Size(128, 19);
+            this.lblApellidom.Size = new System.Drawing.Size(251, 39);
             this.lblApellidom.TabIndex = 17;
             this.lblApellidom.Text = "Apellido Materno";
             // 
@@ -212,9 +224,10 @@
             this.lblApellidop.BackColor = System.Drawing.Color.White;
             this.lblApellidop.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellidop.ForeColor = System.Drawing.Color.Black;
-            this.lblApellidop.Location = new System.Drawing.Point(229, 372);
+            this.lblApellidop.Location = new System.Drawing.Point(458, 715);
+            this.lblApellidop.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblApellidop.Name = "lblApellidop";
-            this.lblApellidop.Size = new System.Drawing.Size(123, 19);
+            this.lblApellidop.Size = new System.Drawing.Size(242, 39);
             this.lblApellidop.TabIndex = 16;
             this.lblApellidop.Text = "Apellido Paterno";
             // 
@@ -225,9 +238,10 @@
             this.lblTelefono.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblTelefono.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefono.ForeColor = System.Drawing.Color.Black;
-            this.lblTelefono.Location = new System.Drawing.Point(227, 610);
+            this.lblTelefono.Location = new System.Drawing.Point(454, 1173);
+            this.lblTelefono.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(68, 19);
+            this.lblTelefono.Size = new System.Drawing.Size(134, 39);
             this.lblTelefono.TabIndex = 19;
             this.lblTelefono.Text = "Telefono";
             // 
@@ -237,9 +251,10 @@
             this.lblDireccion.BackColor = System.Drawing.Color.White;
             this.lblDireccion.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDireccion.ForeColor = System.Drawing.Color.Black;
-            this.lblDireccion.Location = new System.Drawing.Point(230, 452);
+            this.lblDireccion.Location = new System.Drawing.Point(460, 869);
+            this.lblDireccion.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(71, 19);
+            this.lblDireccion.Size = new System.Drawing.Size(142, 39);
             this.lblDireccion.TabIndex = 18;
             this.lblDireccion.Text = "Direccion";
             this.lblDireccion.Click += new System.EventHandler(this.lblDireccion_Click);
@@ -250,9 +265,10 @@
             this.lblCorreo.BackColor = System.Drawing.Color.White;
             this.lblCorreo.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.ForeColor = System.Drawing.Color.Black;
-            this.lblCorreo.Location = new System.Drawing.Point(227, 529);
+            this.lblCorreo.Location = new System.Drawing.Point(454, 1017);
+            this.lblCorreo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(56, 19);
+            this.lblCorreo.Size = new System.Drawing.Size(109, 39);
             this.lblCorreo.TabIndex = 20;
             this.lblCorreo.Text = "Correo";
             this.lblCorreo.Click += new System.EventHandler(this.label7_Click_1);
@@ -262,12 +278,14 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dataGridView1.Location = new System.Drawing.Point(727, 319);
+            this.dataGridView1.Location = new System.Drawing.Point(1454, 613);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.Size = new System.Drawing.Size(567, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(1134, 660);
             this.dataGridView1.TabIndex = 21;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // BtnAdd
             // 
@@ -275,9 +293,10 @@
             this.BtnAdd.FlatAppearance.BorderSize = 0;
             this.BtnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAdd.ForeColor = System.Drawing.Color.White;
-            this.BtnAdd.Location = new System.Drawing.Point(253, 741);
+            this.BtnAdd.Location = new System.Drawing.Point(506, 1425);
+            this.BtnAdd.Margin = new System.Windows.Forms.Padding(6);
             this.BtnAdd.Name = "BtnAdd";
-            this.BtnAdd.Size = new System.Drawing.Size(179, 29);
+            this.BtnAdd.Size = new System.Drawing.Size(358, 56);
             this.BtnAdd.TabIndex = 22;
             this.BtnAdd.Text = "Agregar";
             this.BtnAdd.UseVisualStyleBackColor = false;
@@ -289,11 +308,12 @@
             this.BtnSave.FlatAppearance.BorderSize = 0;
             this.BtnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSave.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnSave.Location = new System.Drawing.Point(493, 741);
+            this.BtnSave.Location = new System.Drawing.Point(986, 1425);
+            this.BtnSave.Margin = new System.Windows.Forms.Padding(6);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(187, 29);
+            this.BtnSave.Size = new System.Drawing.Size(374, 56);
             this.BtnSave.TabIndex = 23;
-            this.BtnSave.Text = "Guardar";
+            this.BtnSave.Text = "Eliminar";
             this.BtnSave.UseVisualStyleBackColor = false;
             this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
@@ -303,9 +323,10 @@
             this.BtnMostrarLista.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnMostrarLista.FlatAppearance.BorderSize = 0;
             this.BtnMostrarLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMostrarLista.Location = new System.Drawing.Point(808, 239);
+            this.BtnMostrarLista.Location = new System.Drawing.Point(1616, 460);
+            this.BtnMostrarLista.Margin = new System.Windows.Forms.Padding(6);
             this.BtnMostrarLista.Name = "BtnMostrarLista";
-            this.BtnMostrarLista.Size = new System.Drawing.Size(64, 62);
+            this.BtnMostrarLista.Size = new System.Drawing.Size(128, 119);
             this.BtnMostrarLista.TabIndex = 24;
             this.BtnMostrarLista.UseVisualStyleBackColor = true;
             this.BtnMostrarLista.Click += new System.EventHandler(this.button1_Click_1);
@@ -316,9 +337,10 @@
             this.BtnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnLimpiar.FlatAppearance.BorderSize = 0;
             this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLimpiar.Location = new System.Drawing.Point(725, 239);
+            this.BtnLimpiar.Location = new System.Drawing.Point(1450, 460);
+            this.BtnLimpiar.Margin = new System.Windows.Forms.Padding(6);
             this.BtnLimpiar.Name = "BtnLimpiar";
-            this.BtnLimpiar.Size = new System.Drawing.Size(66, 62);
+            this.BtnLimpiar.Size = new System.Drawing.Size(132, 119);
             this.BtnLimpiar.TabIndex = 25;
             this.BtnLimpiar.UseVisualStyleBackColor = true;
             this.BtnLimpiar.Click += new System.EventHandler(this.button2_Click);
@@ -330,9 +352,10 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Candara", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(740, 281);
+            this.label1.Location = new System.Drawing.Point(1480, 540);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 11);
+            this.label1.Size = new System.Drawing.Size(71, 22);
             this.label1.TabIndex = 26;
             this.label1.Text = " Limpiar";
             this.label1.Click += new System.EventHandler(this.label1_Click_2);
@@ -344,19 +367,20 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label2.Font = new System.Drawing.Font("Candara", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(816, 281);
+            this.label2.Location = new System.Drawing.Point(1632, 540);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 11);
+            this.label2.Size = new System.Drawing.Size(114, 22);
             this.label2.TabIndex = 27;
             this.label2.Text = " Mostrar Lista";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1373, 813);
+            this.ClientSize = new System.Drawing.Size(2746, 1563);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnLimpiar);
@@ -380,8 +404,10 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.linkLabel1);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -11,8 +11,8 @@ using System.Windows.Forms;
 
 namespace Actividad_5
 {
-    
-    public partial class Form1: Form
+
+    public partial class Form1 : Form
     {
         //Instaciar 
         LogicEstudiantes objlogicEstudiantes;
@@ -69,7 +69,7 @@ namespace Actividad_5
 
         private void PictureBox3(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -79,13 +79,11 @@ namespace Actividad_5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void pictureBox_Click(object sender, EventArgs e)
         {
-            //Utilizar el objeto logic estudiantes tiene acceso al metodo cargar imagenes
-            //objlogicEstudiantes.cargarImagen(pictureBox);
             objlogicEstudiantes.objSubirImagen.cargarImagen(pictureBox);
         }
 
@@ -128,7 +126,7 @@ namespace Actividad_5
             {
                 lblId.ForeColor = Color.Green;
             }
-    }
+        }
 
         private void TxtNombre_TextChanged(object sender, EventArgs e)
         {
@@ -223,12 +221,12 @@ namespace Actividad_5
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-           
+
 
         }
 
@@ -239,37 +237,24 @@ namespace Actividad_5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            objlogicEstudiantes.registrarDatosFormulario();
-
-            objlogicEstudiantes.ListarRegistros();
+            objlogicEstudiantes.guardarRegistros();
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
         {
+            objlogicEstudiantes.eliminarRegistro();
 
-            Personas objPersona = new Personas
-            {
-                ClaveUsuario = txtId.Text,
-                Nombre = txtNombre.Text,
-                ApellidoPaterno = txtApellidop.Text,
-                ApellidoMaterno = txtApellidom.Text,
-                Direccion = txtDireccion.Text,
-                Telefono = txtTelefono.Text,
-                CorreoElectronico = txtCorreo.Text,
-            };
-
-            listaPersonas.Add(objPersona);
-
-            //agregaremos la lista al control dataGridview
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = listaPersonas;
-
-            //Convertir imgagen a byte
-            objlogicEstudiantes.objSubirImagen.ImgToByte(pictureBox.Image);
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+        {
+            if (e.RowIndex >= 0) 
+            {
+                objlogicEstudiantes.mostrarRegistros();
+            }
+        }
+
 
         }
 
@@ -280,7 +265,7 @@ namespace Actividad_5
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            objlogicEstudiantes.limpiarFormulario();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -288,5 +273,14 @@ namespace Actividad_5
             objlogicEstudiantes.ListarRegistros();
 
         }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView1.Rows.Count > 0 && dataGridView1.CurrentRow.Index >= 0)
+            {
+                objlogicEstudiantes.mostrarRegistros();
+            }
+        }
+
     }
 }
